@@ -20,4 +20,6 @@
 
     <color name="accent_device_default_light">#007CFA</color>
     <color name="accent_device_default_dark">#0086FA</color>
+
+    <color name="list_divider_color_dark">#ff404043</color>
 </resources>
