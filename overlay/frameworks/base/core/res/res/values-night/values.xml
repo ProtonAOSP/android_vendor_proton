@@ -15,14 +15,8 @@
     limitations under the License.
 -->
 <resources>
-    <color name="background_device_default_dark">#1C1C1E</color>
-    <color name="primary_dark_device_default_settings">@color/background_device_default_dark</color>
-
-    <!-- Dark background dimmed by 2% in HSL, used for notifications and QS -->
-    <color name="background_floating_device_default_dark">#19191A</color>
-
-    <color name="accent_device_default_light">#007CFA</color>
-    <color name="accent_device_default_dark">#0086FA</color>
-
-    <color name="list_divider_color_dark">#404043</color>
+    <style name="Theme.DeviceDefault.QuickSettings" parent="android:Theme.DeviceDefault">
+        <!-- QS panel background -->
+        <item name="android:colorBackgroundFloating">@color/notification_material_background_color</item>
+    </style>
 </resources>
