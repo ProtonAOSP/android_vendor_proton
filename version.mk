@@ -14,4 +14,4 @@
 
 # Custom ROM version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.build.version.custom=11.0.0
+    ro.build.version.custom=11.1.0
