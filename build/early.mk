@@ -13,8 +13,7 @@
 # limitations under the License.
 
 # Custom ROM version
-ADDITIONAL_BUILD_PROPERTIES += \
-    ro.build.version.custom=11.0.0
+-include vendor/proton/version.mk
 
 # Override product info for Google Play Services and SafetyNet
 ifeq ($(PRODUCT_OVERRIDE_INFO),true)
