@@ -12,9 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit vendor modules
-$(call inherit-product, vendor/proton/bootanimation/bootanimation.mk)
-$(call inherit-product, vendor/proton/fonts/fonts.mk)
-$(call inherit-product, vendor/proton/overlay/overlay.mk)
-$(call inherit-product, vendor/proton/apps/apps.mk)
-$(call inherit-product, vendor/proton/init/init.mk)
+# Custom init scripts
+PRODUCT_COPY_FILES += \
+    vendor/proton/init/init.proton.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.proton.sh \
+    vendor/proton/init/proton.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/proton.rc \
+
+# SEpolicy to allow init actions
+PRODUCT_PRIVATE_SEPOLICY_DIRS += vendor/proton/init/sepolicy
