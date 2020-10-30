@@ -192,6 +192,9 @@
         <item>org.briarproject.briar.android</item>
     </string-array>
 
+    <!-- Google Digital Wellbeing -->
+    <string name="config_defaultWellbeingPackage" translatable="false">com.google.android.apps.wellbeing</string>
+
     <!-- Live Captions provided by Google's Device Personalization Service package  -->
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
     <string name="config_defaultSystemCaptionsService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService</string>
