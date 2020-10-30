@@ -192,6 +192,10 @@
         <item>org.briarproject.briar.android</item>
     </string-array>
 
+    <!-- Flag indicating whether the assist disclosure can be disabled using
+         ASSIST_DISCLOSURE_ENABLED. -->
+    <bool name="config_allowDisablingAssistDisclosure">true</bool>
+
     <!-- Google Digital Wellbeing -->
     <string name="config_defaultWellbeingPackage" translatable="false">com.google.android.apps.wellbeing</string>
 
