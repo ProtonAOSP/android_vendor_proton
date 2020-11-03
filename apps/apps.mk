@@ -21,3 +21,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ThemePicker \
     DefaultThemesStub \
+    IconShapeSquareOverlay \
+    DisplayCutoutEmulationNarrowOverlay \
+    DisplayCutoutEmulationWideOverlay \
