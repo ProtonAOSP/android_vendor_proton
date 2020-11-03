@@ -20,3 +20,4 @@ PRODUCT_PACKAGES += \
 # Customization
 PRODUCT_PACKAGES += \
     ThemePicker \
+    DefaultThemesStub \
