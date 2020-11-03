@@ -24,3 +24,7 @@ PRODUCT_PACKAGES += \
     IconShapeSquareOverlay \
     DisplayCutoutEmulationNarrowOverlay \
     DisplayCutoutEmulationWideOverlay \
+
+# SystemUI plugins
+PRODUCT_PACKAGES += \
+    QuickAccessWallet \
