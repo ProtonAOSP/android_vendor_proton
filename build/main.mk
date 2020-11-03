@@ -18,12 +18,7 @@
 # Override product info for Google Play Services and SafetyNet
 ifeq ($(PRODUCT_OVERRIDE_INFO),true)
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.product.system.name=$(PRODUCT_OVERRIDE_NAME) \
-    ro.product.product.name=$(PRODUCT_OVERRIDE_NAME) \
-    ro.product.system_ext.name=$(PRODUCT_OVERRIDE_NAME) \
-    ro.product.odm.name=$(PRODUCT_OVERRIDE_NAME) \
-    ro.product.vendor.name=$(PRODUCT_OVERRIDE_NAME) \
-    ro.build.flavor=$(PRODUCT_OVERRIDE_NAME)-user \
+    ro.build.flavor=$(PRODUCT_NAME)-user \
     ro.build.fingerprint=$(PRODUCT_OVERRIDE_FINGERPRINT) \
     ro.system.build.fingerprint=$(PRODUCT_OVERRIDE_FINGERPRINT) \
     ro.product.build.fingerprint=$(PRODUCT_OVERRIDE_FINGERPRINT) \
