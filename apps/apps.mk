@@ -28,3 +28,7 @@ PRODUCT_PACKAGES += \
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet \
+
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig \
