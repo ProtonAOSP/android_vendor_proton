@@ -23,6 +23,6 @@
         <item>device_personalization_services/Captions__surface_sound_events=true</item>
         <item>device_personalization_services/Captions__visibility_playing_duration_millis=5000</item>
         <item>device_personalization_services/Captions__visibility_stopped_duration_millis=1500</item>
-        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=148:https://storage.googleapis.com/music-iq-db/updatable_db_v2/20201006-025738/manifest.json</item>
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=152:https://storage.googleapis.com/music-iq-db/recreate_ytm_db/20201028-000000/manifest.json</item>
     </string-array>
 </resources>
