@@ -15,6 +15,9 @@
     limitations under the License.
 -->
 <resources>
+    <!-- The color of the material notification background when dimmed. -->
+    <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>
+
     <!-- The color of the background of the emergency button when home controls are visible -->
     <color name="global_actions_emergency_background">@color/control_default_background</color>
     <color name="global_actions_emergency_text">@color/GM2_red_300</color>

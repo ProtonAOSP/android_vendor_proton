@@ -15,8 +15,6 @@
     limitations under the License.
 -->
 <resources>
-    <!-- The color of the material notification background when dimmed.
-         This is the dark background color, but brightened by 4% rather than
-         dimmed to work better with dark themes. -->
-    <color name="notification_material_background_dimmed_color">#252527</color>
+    <!-- The color of the material notification background when dimmed. -->
+    <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>
 </resources>
