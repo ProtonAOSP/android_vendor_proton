@@ -17,4 +17,7 @@
 <resources>
     <!-- The color of the material notification background when dimmed. -->
     <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>
+
+    <color name="smart_reply_button_background">@*android:color/list_divider_color_dark</color>
+    <color name="smart_reply_button_stroke">@*android:color/list_divider_color_dark</color>
 </resources>
