@@ -12,18 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(call inherit-product, vendor/proton/themes/themes.mk)
+
 # LineageOS apps
 PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
-
-# Customization
-PRODUCT_PACKAGES += \
-    ThemePicker \
-    DefaultThemesStub \
-    IconShapeSquareOverlay \
-    DisplayCutoutEmulationNarrowOverlay \
-    DisplayCutoutEmulationWideOverlay \
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
