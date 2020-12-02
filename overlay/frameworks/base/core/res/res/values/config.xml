@@ -72,6 +72,8 @@
         <item>com.android.location.fused</item>
         <!-- Google Play Services or microG -->
         <item>com.google.android.gms</item>
+        <!-- Standalone UnifiedNlp (for gapps) -->
+        <item>org.microg.nlp</item>
     </string-array>
 
     <!-- Extra location package names -->
