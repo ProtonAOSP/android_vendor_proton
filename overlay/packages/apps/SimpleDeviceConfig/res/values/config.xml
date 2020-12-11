@@ -16,6 +16,10 @@
 -->
 <resources>
     <string-array name="device_config">
+        <!-- Enable privacy indicators -->
+        <item>privacy/permissions_hub_2_enabled=true</item>
+        <item>privacy/permissions_hub_enabled=true</item>
+
         <!-- Disable unused AiAi features -->
         <item>device_personalization_services/Attention__enabled=false</item>
         <item>device_personalization_services/Autofill__enable=false</item>
