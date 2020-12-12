@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 <resources>
-    <string-array name="device_config">
+    <string-array name="configs_base">
         <!--
             System
         -->
