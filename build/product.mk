@@ -34,3 +34,22 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # on supported devices with Deep Press input classifier HALs and models
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.input.video_enabled=false
+
+# AOSP userdebug/eng CLI tools
+PRODUCT_PACKAGES += \
+    arping \
+    gdbserver \
+    idlcli \
+    iotop \
+    iperf3 \
+    iw \
+    procrank \
+    showmap \
+    sqlite3 \
+    ss \
+    strace \
+    tracepath \
+    tracepath6 \
+    traceroute6 \
+    procmem \
+    curl \
