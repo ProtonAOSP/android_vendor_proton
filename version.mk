@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CUSTOM_ROM_VERSION := 11.2.1
+CUSTOM_ROM_VERSION := 11.3.0
 
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.build.version.custom=$(CUSTOM_ROM_VERSION)
