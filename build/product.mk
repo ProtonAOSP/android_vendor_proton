@@ -74,3 +74,8 @@ PRODUCT_PACKAGES += \
     sshd_config \
     ssh-keygen \
     start-ssh \
+
+# Gapps
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+endif
