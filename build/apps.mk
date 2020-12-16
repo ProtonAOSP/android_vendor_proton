@@ -26,3 +26,7 @@ PRODUCT_PACKAGES += \
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig \
+
+# Wallpapers
+PRODUCT_PACKAGES += \
+    ProtonWallpaperStub \
