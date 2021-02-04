@@ -38,9 +38,10 @@
         </string-array>
         <string name="feature_flag_name">vvm_carrier_freedom_ca</string>
         <int name="vvm_port_number_int" value="0" />
-        <string name="vvm_destination_number_string">45567</string>
+        <string name="vvm_destination_number_string">455677</string>
         <string name="vvm_type_string">vvm_type_omtp</string>
         <boolean name="vvm_cellular_data_required_bool" value="true" />
+        <string name="vvm_transcription_allowed_for_carrier_flag_name"> vvm_freedom_ca_allows_transcription </string>
     </pbundle_as_map>
     <pbundle_as_map>
         <string-array name="mccmnc">
@@ -93,6 +94,7 @@
         <string-array name="mccmnc">
             <item value="23410" />
         </string-array>
+        <boolean name="vvm_ignore_transcription" value="true" />
         <int name="vvm_port_number_int" value="2700" />
         <string name="vvm_destination_number_string">9017</string>
         <string name="vvm_type_string">vvm_type_omtp</string>
@@ -251,7 +253,7 @@
     </pbundle_as_map>
     <pbundle_as_map>
         <string-array name="mccmnc">
-            <item value="311480?gid1=a" />
+            <item value="311480?gid1=BA01450000000000" />
         </string-array>
         <int name="vvm_port_number_int" value="0" />
         <string name="vvm_destination_number_string">900080006200</string>
@@ -264,8 +266,7 @@
     </pbundle_as_map>
     <pbundle_as_map>
         <string-array name="mccmnc">
-            <item value="311480?gid1=186" />
-            <item value="311480?gid1=170" />
+            <item value="311480?gid1=BA00010000000000" />
         </string-array>
         <string name="vvm_type_string">vvm_type_disable</string>
     </pbundle_as_map>
@@ -333,7 +334,6 @@
     </pbundle_as_map>
     <pbundle_as_map>
         <string-array name="mccmnc">
-            <item value="310410" />
             <item value="310016" />
             <item value="310030" />
             <item value="310070" />
@@ -344,6 +344,7 @@
             <item value="310280" />
             <item value="310380" />
             <item value="310410" />
+            <item value="310560" />
             <item value="310670" />
             <item value="310680" />
             <item value="310950" />
@@ -354,6 +355,14 @@
             <item value="312090" />
             <item value="312670" />
             <item value="312680" />
+            <item value="313100" />
+            <item value="313110" />
+            <item value="313120" />
+            <item value="313130" />
+            <item value="313140" />
+            <item value="313790" />
+            <item value="334050" />
+            <item value="334090" />
         </string-array>
         <string name="feature_flag_name">vvm_carrier_att</string>
         <int name="vvm_port_number_int" value="5499" />
