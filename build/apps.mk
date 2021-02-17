@@ -30,3 +30,10 @@ PRODUCT_PACKAGES += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     ProtonWallpaperStub \
+    
+# Browser and WebView
+PRODUCT_PACKAGES += \
+    TrichromeLibrary \
+    TrichromeChrome \
+    TrichromeWebView \
+    SystemWebView \
