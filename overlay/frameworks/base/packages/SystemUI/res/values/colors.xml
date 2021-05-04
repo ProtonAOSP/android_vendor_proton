@@ -15,6 +15,11 @@
     limitations under the License.
 -->
 <resources>
+    <!-- color-bg-overlay -->
+    <color name="qs_customize_background">#ffffff</color>
+    <!-- color-bg-canvas-inset -->
+    <color name="qs_customize_decoration">#f6f8fa</color>
+
     <!-- The color of the material notification background when dimmed. -->
     <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>
 </resources>
