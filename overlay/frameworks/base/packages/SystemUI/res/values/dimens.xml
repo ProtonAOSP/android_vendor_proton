@@ -16,5 +16,5 @@
 -->
 <resources>
     <!--  Blur radius on status bar window and power menu  -->
-    <dimen name="max_window_blur_radius">175px</dimen>
+    <dimen name="max_window_blur_radius">50dp</dimen>
 </resources>

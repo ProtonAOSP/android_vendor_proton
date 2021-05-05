@@ -15,5 +15,5 @@
     limitations under the License.
 -->
 <resources>
-    <integer name="max_depth_blur_radius">175</integer>
+    <dimen name="max_depth_blur_radius">50dp</dimen>
 </resources>
