@@ -15,5 +15,5 @@
     limitations under the License.
 -->
 <resources>
-    <color name="search_panel_background">#1c2128</color>
+    <color name="search_panel_background">#202020</color>
 </resources>

@@ -16,12 +16,12 @@
 -->
 <resources>
     <!-- color-bg-overlay -->
-    <color name="qs_customize_background">#1c2128</color>
+    <color name="qs_customize_background">#202020</color>
     <!-- color-bg-canvas -->
-    <color name="qs_customize_decoration">#0d1117</color>
+    <color name="qs_customize_decoration">#101010</color>
 
     <!-- color-bg-overlay -->
-    <color name="GM2_grey_800">#1c2128</color>
+    <color name="GM2_grey_800">#202020</color>
 
     <!-- The color of the material notification background when dimmed. -->
     <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>

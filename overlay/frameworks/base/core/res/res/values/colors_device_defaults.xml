@@ -22,30 +22,30 @@
 
     <!-- color-bg-canvas -->
     <color name="background_device_default_light">#ffffff</color>
-    <color name="background_device_default_dark">#0d1117</color>
+    <color name="background_device_default_dark">#101010</color>
 
     <!-- color-bg-overlay; used for notifications and QS -->
     <color name="background_floating_device_default_light">#ffffff</color>
-    <color name="background_floating_device_default_dark">#1c2128</color>
+    <color name="background_floating_device_default_dark">#202020</color>
     <color name="background_floating_material_light">#ffffff</color>
-    <color name="background_floating_material_dark">#1c2128</color>
-    <color name="GM2_grey_800">#1c2128</color>
+    <color name="background_floating_material_dark">#202020</color>
+    <color name="GM2_grey_800">#202020</color>
 
     <!-- color-text-link -->
     <color name="accent_device_default_light">#0366d6</color>
     <color name="accent_device_default_dark">#58a6ff</color>
 
     <!-- color-border-overlay -->
-    <color name="list_divider_color_light">#e1e4e8</color>
-    <color name="list_divider_color_dark">#30363d</color>
+    <color name="list_divider_color_light">#e4e4e4</color>
+    <color name="list_divider_color_dark">#353535</color>
 
     <!-- color-text-danger -->
     <color name="error_color_device_default_light">#cb2431</color>
     <color name="error_color_device_default_dark">#f85149</color>
 
     <!-- color-bg-canvas-inverse -->
-    <color name="edge_effect_device_default_light">#24292e</color>
-    <color name="edge_effect_device_default_dark">#f0f5fc</color>
+    <color name="edge_effect_device_default_light">#282828</color>
+    <color name="edge_effect_device_default_dark">#f4f4f4</color>
 
     <!--
         Android parts

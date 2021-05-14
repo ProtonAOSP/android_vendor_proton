@@ -18,7 +18,7 @@
     <!-- color-bg-overlay -->
     <color name="qs_customize_background">#ffffff</color>
     <!-- color-bg-canvas-inset -->
-    <color name="qs_customize_decoration">#f6f8fa</color>
+    <color name="qs_customize_decoration">#f8f8f8</color>
 
     <!-- The color of the material notification background when dimmed. -->
     <color name="notification_material_background_dimmed_color">@*android:color/notification_material_background_color</color>
