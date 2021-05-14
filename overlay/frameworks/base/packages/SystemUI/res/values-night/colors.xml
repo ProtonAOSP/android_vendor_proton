@@ -15,10 +15,10 @@
     limitations under the License.
 -->
 <resources>
-    <!-- color-bg-overlay -->
-    <color name="qs_customize_background">#202020</color>
     <!-- color-bg-canvas -->
-    <color name="qs_customize_decoration">#101010</color>
+    <color name="qs_customize_background">#101010</color>
+    <!-- color-bg-tertiary -->
+    <color name="qs_customize_decoration">#1a1a1a</color>
 
     <!-- color-bg-overlay -->
     <color name="GM2_grey_800">#202020</color>

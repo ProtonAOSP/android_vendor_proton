@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 <resources>
-    <!-- color-bg-overlay -->
+    <!-- color-bg-canvas -->
     <color name="qs_customize_background">#ffffff</color>
     <!-- color-bg-canvas-inset -->
     <color name="qs_customize_decoration">#f8f8f8</color>
