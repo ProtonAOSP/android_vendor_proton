@@ -16,9 +16,9 @@
 -->
 <resources>
     <!-- color-bg-canvas -->
-    <color name="qs_customize_background">#101010</color>
+    <color name="qs_customize_background">#111111</color>
     <!-- color-bg-tertiary -->
-    <color name="qs_customize_decoration">#1a1a1a</color>
+    <color name="qs_customize_decoration">#1b1b1b</color>
 
     <!-- color-bg-overlay -->
     <color name="GM2_grey_800">#202020</color>

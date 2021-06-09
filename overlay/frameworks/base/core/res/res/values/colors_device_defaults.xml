@@ -22,16 +22,16 @@
 
     <!-- color-bg-canvas -->
     <color name="background_device_default_light">#ffffff</color>
-    <color name="background_device_default_dark">#101010</color>
+    <color name="background_device_default_dark">#111111</color>
 
     <!-- color-bg-canvas; used for notifications and QS -->
     <color name="background_floating_device_default_light">#ffffff</color>
-    <color name="background_floating_device_default_dark">#101010</color>
+    <color name="background_floating_device_default_dark">#111111</color>
 
     <!-- color-bg-overlay -->
     <color name="background_floating_material_light">#ffffff</color>
-    <color name="background_floating_material_dark">#202020</color>
-    <color name="GM2_grey_800">#202020</color>
+    <color name="background_floating_material_dark">#212121</color>
+    <color name="GM2_grey_800">#212121</color>
 
     <!-- color-text-link -->
     <color name="accent_device_default_light">#0366d6</color>
