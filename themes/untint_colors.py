@@ -8,23 +8,23 @@ RGB = collections.namedtuple("RGB", ["r", "g", "b"])
 Oklab = collections.namedtuple("Oklab", ["L", "a", "b"])
 Oklch = collections.namedtuple("Oklch", ["L", "C", "h"])
 
-def srgb_to_linear(srgb):
-    def oetf(x):
-        if x >= 0.0031308:
-            return 1.055 * (x ** (1.0 / 2.4)) - 0.055
-        else:
-            return 12.92 * x
-
-    return RGB(oetf(srgb.r), oetf(srgb.g), oetf(srgb.b))
-
-def linear_to_srgb(rgb):
+def srgb_to_linear(rgb):
     def eotf(x):
         if x >= 0.04045:
             return ((x + 0.055) / (1 + 0.055)) ** 2.4
         else:
             return x / 12.92
 
-    return sRGB(eotf(rgb.r), eotf(rgb.g), eotf(rgb.b))
+    return RGB(eotf(rgb.r), eotf(rgb.g), eotf(rgb.b))
+
+def linear_to_srgb(srgb):
+    def oetf(x):
+        if x >= 0.0031308:
+            return 1.055 * (x ** (1.0 / 2.4)) - 0.055
+        else:
+            return 12.92 * x
+
+    return sRGB(oetf(srgb.r), oetf(srgb.g), oetf(srgb.b))
 
 def rgb_to_oklab(rgb):
     l = 0.4122214708 * rgb.r + 0.5363325363 * rgb.g + 0.0514459929 * rgb.b
