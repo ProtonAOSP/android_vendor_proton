@@ -15,6 +15,9 @@
 # Custom ROM version
 -include vendor/proton/version.mk
 
+# Signing
+-include vendor/proton/signing/keys.mk
+
 # Override product info for Google Play Services and SafetyNet
 ifeq ($(PRODUCT_OVERRIDE_INFO),true)
 ADDITIONAL_BUILD_PROPERTIES += \
