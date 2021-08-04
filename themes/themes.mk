@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     IconShapeSquareOverlay \
     DisplayCutoutEmulationNarrowOverlay \
     DisplayCutoutEmulationWideOverlay \
+    NavigationBarMode2ButtonOverlay \
 
 # Accent colors
 PRODUCT_PACKAGES += \
