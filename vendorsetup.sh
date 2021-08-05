@@ -104,3 +104,7 @@ export SKIP_ABI_CHECKS=true
 # This doesn't increase build time significantly, so enable it for
 # performance.
 export GLOBAL_THINLTO=true
+
+# Some Qualcomm HALs in AOSP depend on this variable. Define it here to
+# avoid unnecessary repo forks.
+export QC_OPEN_PATH=vendor/qcom/opensource
