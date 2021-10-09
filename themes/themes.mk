@@ -18,4 +18,6 @@ PRODUCT_PACKAGES += \
     DefaultThemesStub \
     DisplayCutoutEmulationNarrowOverlay \
     DisplayCutoutEmulationWideOverlay \
+    NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay \
     NavigationBarMode2ButtonOverlay \
