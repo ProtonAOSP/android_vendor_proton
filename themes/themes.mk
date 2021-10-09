@@ -12,12 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Customization
+# Wallpaper & style
 PRODUCT_PACKAGES += \
     ThemePicker \
     DefaultThemesStub \
+
+# Display cutout settings
+PRODUCT_PACKAGES += \
     DisplayCutoutEmulationNarrowOverlay \
     DisplayCutoutEmulationWideOverlay \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay \
+
+# 2-button gesture navigation
+PRODUCT_PACKAGES += \
     NavigationBarMode2ButtonOverlay \
