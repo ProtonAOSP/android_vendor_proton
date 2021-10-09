@@ -16,25 +16,6 @@
 PRODUCT_PACKAGES += \
     ThemePicker \
     DefaultThemesStub \
-    IconShapeSquareOverlay \
     DisplayCutoutEmulationNarrowOverlay \
     DisplayCutoutEmulationWideOverlay \
     NavigationBarMode2ButtonOverlay \
-
-# Accent colors
-PRODUCT_PACKAGES += \
-    AccentColorPixelBlueOverlay \
-    AccentColorGoogleBlueOverlay \
-    AccentColorGoogleRedOverlay \
-    AccentColorGoogleYellowOverlay \
-    AccentColorGoogleGreenOverlay \
-    AccentColorGoogleGrayOverlay \
-    AccentColorAppleBlueOverlay \
-    AccentColorAppleGreenOverlay \
-    AccentColorAppleIndigoOverlay \
-    AccentColorAppleOrangeOverlay \
-    AccentColorApplePinkOverlay \
-    AccentColorApplePurpleOverlay \
-    AccentColorAppleRedOverlay \
-    AccentColorAppleTealOverlay \
-    AccentColorAppleYellowOverlay \
