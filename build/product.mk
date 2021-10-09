@@ -44,12 +44,15 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # AOSP userdebug/eng CLI tools
 PRODUCT_PACKAGES += \
     arping \
+    dmuserd \
     gdbserver \
     idlcli \
     iotop \
     iperf3 \
     iw \
     procrank \
+    profcollectd \
+    profcollectctl \
     showmap \
     sqlite3 \
     ss \
