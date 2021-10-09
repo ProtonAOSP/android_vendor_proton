@@ -17,23 +17,4 @@
 <resources>
     <string name="themes_stub_package" translatable="false">com.android.customization.stub</string>
     <string name="clocks_stub_package" translatable="false">com.android.customization.stub</string>
-
-    <!-- List of packages whose icons are used to preview the icon shape for a theme. These are
-        typically GMS apps so they should be available in GMS devices. -->
-    <array name="icon_shape_preview_packages">
-        <!-- Google (6) -->
-        <item>com.google.android.gm</item>
-        <item>com.google.android.googlequicksearchbox</item>
-        <item>com.google.android.apps.photos</item>
-        <item>com.google.android.apps.docs</item>
-        <item>com.google.android.youtube</item>
-        <item>com.android.vending</item>
-        <!-- AOSP (6), mostly matches Launcher3 default 5x5 dock -->
-        <item>com.android.deskclock</item>
-        <item>com.android.messaging</item>
-        <item>com.android.settings</item>
-        <item>org.lineageos.jelly</item>
-        <item>com.android.camera2</item>
-        <item>com.android.contacts</item>
-    </array>
 </resources>
