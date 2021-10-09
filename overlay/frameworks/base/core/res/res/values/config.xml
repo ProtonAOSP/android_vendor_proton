@@ -230,4 +230,7 @@
             2 - Global actions menu
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
+
+    <!-- the number of the max cached processes in the system. -->
+    <integer name="config_customizedMaxCachedProcesses">64</integer>
 </resources>
