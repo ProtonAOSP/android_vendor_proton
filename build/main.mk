@@ -18,8 +18,8 @@
 # Signing
 -include vendor/proton/signing/keys.mk
 
-# Override product info for Google Play Services and SafetyNet
-ifeq ($(PRODUCT_OVERRIDE_INFO),true)
+# Override fingerprint for Google Play Services and SafetyNet
+ifneq ($(PRODUCT_OVERRIDE_FINGERPRINT),)
 ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.build.tags=release-keys \
     ro.build.stock_fingerprint=$(PRODUCT_OVERRIDE_FINGERPRINT)
