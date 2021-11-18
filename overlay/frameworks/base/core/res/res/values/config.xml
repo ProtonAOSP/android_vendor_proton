@@ -237,11 +237,6 @@
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
 
-    <!-- Exempt AiAi from privacy indicators -->
+    <!-- Exempt AiAi from privacy indicators, using the ambient audio slot -->
     <string name="config_systemAmbientAudioIntelligence">com.google.android.as</string>
-    <string name="config_systemAudioIntelligence">com.google.android.as</string>
-    <string name="config_systemNotificationIntelligence">com.google.android.as</string>
-    <string name="config_systemTextIntelligence">com.google.android.as</string>
-    <string name="config_systemUiIntelligence">com.google.android.as</string>
-    <string name="config_systemVisualIntelligence">com.google.android.as</string>
 </resources>
