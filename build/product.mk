@@ -12,9 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/proton/build/apps.mk)
-
 # Inherit vendor submodules
+$(call inherit-product, vendor/proton/apps/apps.mk)
 $(call inherit-product, vendor/proton/bootanimation/bootanimation.mk)
 $(call inherit-product, vendor/proton/fonts/fonts.mk)
 $(call inherit-product, vendor/proton/overlay/overlay.mk)
