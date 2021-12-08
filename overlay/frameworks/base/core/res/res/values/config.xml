@@ -239,4 +239,7 @@
 
     <!-- Exempt AiAi from privacy indicators, using the ambient audio slot -->
     <string name="config_systemAmbientAudioIntelligence">com.google.android.as</string>
+
+    <!-- Suppress Intent Filter Verification Service crashes -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.android.statementservice</string>
 </resources>
