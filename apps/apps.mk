@@ -14,6 +14,8 @@
 
 $(call inherit-product, vendor/proton/themes/themes.mk)
 
+LOCAL_PATH := vendor/proton/apps
+
 # LineageOS apps
 PRODUCT_PACKAGES += \
     ExactCalculator \
@@ -30,3 +32,7 @@ PRODUCT_PACKAGES += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     ProtonWallpaperStub \
+
+# Permissions for Google product apps
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/default-permissions-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-product.xml \
