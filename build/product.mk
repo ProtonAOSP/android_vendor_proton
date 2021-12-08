@@ -22,10 +22,15 @@ $(call inherit-product, vendor/proton/audio/audio.mk)
 $(call inherit-product-if-exists, vendor/proton/signing/dev.mk)
 
 # Flatten APEXs for performance
+# TODO: fix Pixel 6 camera HAL flattening and re-enable this
+ifeq ($(filter raven oriole,$(TARGET_DEVICE)),)
 OVERRIDE_TARGET_FLATTEN_APEX := true
 # This needs to be specified explicitly to override ro.apex.updatable=true from
 # prebuilt vendors, as init reads /product/build.prop after /vendor/build.prop
 PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
+endif
+# Disable compressed APEX if not flattened
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
