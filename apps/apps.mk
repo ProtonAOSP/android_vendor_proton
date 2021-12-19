@@ -36,3 +36,26 @@ PRODUCT_PACKAGES += \
 # Permissions for Google product apps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/default-permissions-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-product.xml \
+
+# Google apps and services
+ifeq ($(WITH_GMS),true)
+
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+
+# SetupWizard
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.setupwizard.rotation_locked=true \
+    setupwizard.theme=glif_v3_light \
+
+# Google Assistant
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.opa.eligible_device=true \
+
+# Client ID
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.clientidbase=android-google \
+
+# Overlays
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/gms_overlay
+
+endif

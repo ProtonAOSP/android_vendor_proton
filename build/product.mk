@@ -92,26 +92,6 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh \
 
-# Gapps
-ifeq ($(WITH_GMS),true)
-
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
-
-# SetupWizard
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.setupwizard.rotation_locked=true \
-    setupwizard.theme=glif_v3_light \
-
-# Google Assistant
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.opa.eligible_device=true \
-
-# Client ID
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.clientidbase=android-google \
-
-endif
-
 # Gboard side padding
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_l?=4 \
