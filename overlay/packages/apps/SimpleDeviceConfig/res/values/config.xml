@@ -70,6 +70,9 @@
         -->
         <item>input_native_boot/deep_press_enabled=false</item>
 
+        <!-- DNS over HTTP/3 -->
+        <item>netd_native/doh=1</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
